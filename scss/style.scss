@@ -38,12 +38,35 @@ main {
     article {
         display: flex;
         background-color: rgba(255, 255, 255, .5);
+        font-style: italic;
+        padding-left: 4px;
 
         h2 {
-            font-size: 30px;
+            font-size: 20px;
+            padding-top: 100px;
         }
-        p {
+        p { font-size: 16px;
 
         }
+        padding-bottom: 70px;
     }
 }
+
+
+footer {
+     article {
+         display: flex;
+         background-color:rgba(137, 190, 174, 1)
+         font-style: "italic";
+         margin-top: 80px;
+        }
+    h3 {
+        font-size: 18px;
+        padding-top: 100px;
+    }
+    p { font-size:16px;}
+   
+
+}
+
+
