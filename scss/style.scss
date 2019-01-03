@@ -1,0 +1,49 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css";
+
+body {
+    background: url(../images/bm-bandersnatch-still-10.jpg) center/cover fixed;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        font-size: 45px;
+        color: grey;
+        font-family: 'Lobster', cursive;
+        padding-left: 130px;
+    }
+
+    nav {
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            justify-content: space-between;
+
+            li {
+                a {
+                    color: blueviolet;
+                    text-decoration: none;
+                    padding-right: 8px;
+                }
+            }
+        }
+    }
+}
+
+
+main {
+    article {
+        display: flex;
+        background-color: rgba(255, 255, 255, .5);
+
+        h2 {
+            font-size: 30px;
+        }
+        p {
+
+        }
+    }
+}
